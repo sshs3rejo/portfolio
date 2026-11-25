@@ -54,7 +54,7 @@ const socials = [
   },
   {
     label: "E-mail",
-    handle: "ssh.serejo",
+    handle: "felipeserejodev",
     href: profile.links.email,
     icon: "email",
   },
