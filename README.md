@@ -36,6 +36,9 @@ O layout usa esse arquivo para a home e para as páginas `/projetos/[slug]`.
 3. Aponte `serejo.is-a.dev` via PR no `is-a-dev/register` com CNAME para a Vercel.
 4. Defina `NEXT_PUBLIC_SITE_URL=https://serejo.is-a.dev` nas variáveis da Vercel.
 
+Produção: https://serejo-dev-ruddy.vercel.app
+Domínio: https://serejo.is-a.dev (PR `is-a-dev/register#62822`, aguardando revisão)
+
 O layout inclui JSON-LD `Person`, canonical, Open Graph e sitemap para indexação.
 
 ## Pendências antes de publicar
