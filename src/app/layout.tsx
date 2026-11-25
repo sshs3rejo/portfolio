@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 const title = "Felipe Serejo — Desenvolvedor Web";
 const description =
-  "Portfólio de Felipe Serejo, desenvolvedor web em formação. Sistemas com TypeScript, Next.js e Laravel — Fábrica de Software UniFacema e SAAE Caxias.";
+  "Portfólio de Felipe Serejo, desenvolvedor web em formação. Sistemas com TypeScript, Next.js | Laravel — Fábrica de Software UniFacema e SAAE Caxias.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

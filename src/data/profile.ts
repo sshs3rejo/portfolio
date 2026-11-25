@@ -3,16 +3,16 @@ export const profile = {
   fullName: "Felipe Gabriel Serejo de Andrade",
   role: "Desenvolvedor Web",
   headline:
-    "Desenvolvedor Web · TypeScript, Next.js e Laravel · Fábrica de Software UniFacema · SAAE · ADS",
+    "Desenvolvedor Web · TypeScript, Next.js | Laravel · Fábrica de Software UniFacema · SAAE · ADS",
   location: "Caxias – MA",
-  email: "ssh.serejo@gmail.com",
-  bio: "Construo sistemas de ponta a ponta — do modelo de dados à interface. Na Fábrica de Software da UniFacema e no setor de TI da SAAE Caxias, transformo processo manual em software com TypeScript, Next.js e Laravel.",
+  email: "felipeserejodev@gmail.com",
+  bio: "Construo sistemas de ponta a ponta — do modelo de dados à interface. Na Fábrica de Software da UniFacema e no setor de TI da SAAE Caxias, transformo processo manual em software com TypeScript, Next.js | Laravel.",
   status: "Aberto a estágio e projetos",
   links: {
     github: "https://github.com/sshs3rejo",
     linkedin: "https://www.linkedin.com/in/felipe-serejo/",
     instagram: "https://www.instagram.com/sshs3rejo",
-    email: "mailto:ssh.serejo@gmail.com",
+    email: "mailto:felipeserejodev@gmail.com",
   },
   stack: [
     "TypeScript",
