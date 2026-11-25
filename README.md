@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio — Felipe Serejo
 
-## Getting Started
+Site pessoal e link hub: projetos, experiência e contato em uma página, com um caso curto por projeto.
 
-First, run the development server:
+## Rodar
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre em `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Onde editar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tudo que é conteúdo está em **`src/data/profile.ts`**:
 
-## Learn More
+- `profile` — nome, headline, bio, links, stack, experiências e formação
+- `projects` — os seis projetos, com contexto, solução, destaques e links
 
-To learn more about Next.js, take a look at the following resources:
+O layout usa esse arquivo para a home e para as páginas `/projetos/[slug]`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Estrutura
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/app/page.tsx` — home (hero, links, stack, projetos, experiência, contato)
+- `src/app/projetos/[slug]/page.tsx` — caso de cada projeto
+- `src/components/project-media.tsx` — screenshot do projeto ou capa CSS de fallback
+- `public/avatar.jpg` — foto
+- `public/og.png` — imagem de compartilhamento (1200×630)
+- `src/app/sitemap.ts` e `src/app/robots.ts` — SEO
 
-## Deploy on Vercel
+## Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Suba o repositório no GitHub.
+2. Importe na Vercel (projeto `serejo-dev`).
+3. Aponte `serejo.is-a.dev` via PR no `is-a-dev/register` com CNAME para a Vercel.
+4. Defina `NEXT_PUBLIC_SITE_URL=https://serejo.is-a.dev` nas variáveis da Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O layout inclui JSON-LD `Person`, canonical, Open Graph e sitemap para indexação.
+
+## Pendências antes de publicar
+
+- Confirmar se o e-mail `ssh.serejo@gmail.com` pode ficar público.
+- O LinkedIn está em `linkedin.com/in/felipe-serejo` (URL atualizada em 24/11/2026).
+- Confirmar o mês de início na Fábrica (resultado da seleção em 28/09/2026; o LinkedIn está com ago/2026).
