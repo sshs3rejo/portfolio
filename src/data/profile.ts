@@ -3,7 +3,7 @@ export const profile = {
   fullName: "Felipe Gabriel Serejo de Andrade",
   role: "Desenvolvedor Web",
   headline:
-    "Desenvolvedor Web · TypeScript, Next.js | Laravel · Fábrica de Software UniFacema · SAAE · ADS",
+    "Desenvolvedor Web · TypeScript, Next.js · Laravel · Fábrica de Software UniFacema · SAAE · ADS",
   location: "Caxias – MA",
   email: "felipeserejodev@gmail.com",
   bio: "Construo sistemas de ponta a ponta — do modelo de dados à interface. Na Fábrica de Software da UniFacema e no setor de TI da SAAE Caxias, transformo processo manual em software com TypeScript, Next.js | Laravel.",
