@@ -90,7 +90,7 @@ export default function Home() {
               {"// "}
               {profile.status}
             </p>
-            <h1 data-hero className="mt-4 font-mono text-4xl tracking-tight text-neutral-100 sm:text-5xl lg:text-6xl">
+            <h1 className="mt-4 font-mono text-4xl tracking-tight text-neutral-100 sm:text-5xl lg:text-6xl">
               {profile.name}
               <span className="text-accent">.</span>
             </h1>
@@ -165,7 +165,7 @@ export default function Home() {
             </dl>
           </div>
 
-          <div data-hero className="order-first flex flex-col items-center gap-3 lg:order-last">
+          <div className="order-first flex flex-col items-center gap-3 lg:order-last">
             <div data-avatar-float className="rounded-full bg-gradient-to-br from-accent/60 via-transparent to-transparent p-[2px]">
               <Image
                 src="/avatar.jpg"
@@ -174,6 +174,7 @@ export default function Home() {
                 height={900}
                 sizes="(min-width: 1024px) 224px, (min-width: 640px) 192px, 160px"
                 priority
+                fetchPriority="high"
                 className="h-40 w-40 rounded-full border border-[#0D1117] object-cover sm:h-48 sm:w-48 lg:h-56 lg:w-56"
               />
             </div>
